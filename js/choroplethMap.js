@@ -116,7 +116,7 @@ class ChoroplethMap {
                       .style('top', (event.pageY + vis.config.tooltipPadding) + 'px')
                       .html(`
                         <div class="tooltip-title">${d.properties.name}</div>
-                        <div>${"coom"}</div>
+                        <div>${d.properties[this.currentData}</div>
                       `);
                   })
                   .on('mouseleave', () => {
